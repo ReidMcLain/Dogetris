@@ -3,10 +3,9 @@
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white; /* Change background color to white */
+    background-color: #f5f5dc; /* Light beige background color */
 }
 
 h1 {
@@ -14,6 +13,24 @@ h1 {
     text-align: center;
     margin-top: 20px; /* Add space above the title */
     margin-bottom: 20px; /* Add space below the title */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px; /* Space between the main content and the score */
+    background-color: #f5f5dc; /* Light beige background color */
+    padding: 20px; /* Add some padding to the main container */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* Include padding in the width and height calculation */
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
