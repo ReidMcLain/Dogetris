@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>200 x 100 Grid</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<h1>Dogetris</h1>
+<div class="container">
+    <div class="grid">
+        <!-- Cells will be added dynamically via JavaScript -->
+    </div>
+    <div class="score-container">
+        <h2>Score: <span id="score">0</span></h2>
+    </div>
+</div>
+<div class="button-container">
+    <div class="button-row">
+        <button id="leftArrowButton" class="btn btn-primary">←</button>
+        <button id="actionButton" class="btn btn-success">Play</button>
+        <button id="rightArrowButton" class="btn btn-primary">→</button>
+    </div>
+    <button id="downArrowButton" class="btn btn-primary mt-2">↓</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
