@@ -86,3 +86,7 @@ img {
     width: 23px; /* Width of the doge image */
     height: 23px; /* Height of the doge image */
 }
+
+#spinButton {
+    margin-left: 5px; /* Adds a little space on the left for visual balance */
+}

@@ -1,0 +1,16 @@
+{
+  "name": "dogetris",
+  "version": "1.0.0",
+  "description": "A simple 200x100 grid example",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "dev": "nodemon --watch . --ext html,css --exec \"live-server --port=3000\""
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "nodemon": "^3.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
